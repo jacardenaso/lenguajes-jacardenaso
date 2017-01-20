@@ -3,21 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lenguajes;
+package elimc;
 
 /**
  *
- * @author T-102
+ * @author jr.armando
  */
-public class Lenguajes {
-
-    /**
-     * @param args the command line arguments
-     */
+public class AplicacionImc {
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.println("Hola mundo pero desde github");
         
     }
+    
 }
