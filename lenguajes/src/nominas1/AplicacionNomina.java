@@ -16,7 +16,7 @@ public class AplicacionNomina {
         worker.nombre="Pedro";      //objeto asignaciones de valores
         worker.paterno="Lopez";
         worker.numeroSeguro=90;
-        if(worker.numeroSeguro<=90)worker.numeroSeguro=100;
+        if(worker.numeroSeguro<=90) worker.numeroSeguro=100;
         System.out.println("EL nombre es " +worker.nombre );
          System.out.println("EL seguro es " +worker.numeroSeguro );
     }
