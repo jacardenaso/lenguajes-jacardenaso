@@ -15,7 +15,7 @@ public class AplicacionPato {
         PatoCanadiense pc1=new PatoCanadiense();
         PatoCanadiense pc2=new PatoCanadiense();
         pc1.comer();
-        
+        pc1.volar();
           
     }
             
