@@ -14,7 +14,7 @@ public class PatoEuropeo extends Pato implements ComportamientoVolar{
 
     @Override
     public void volar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         System.out.println("si vuelo ");
     }
       
 }

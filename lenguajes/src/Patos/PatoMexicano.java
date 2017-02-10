@@ -9,12 +9,12 @@ package Patos;
  *
  * @author jr.armando
  */
-public class PatoMexicano extends Pato{
+public class PatoMexicano extends Pato implements ComportamientoVolar{
       public static final String color="blanco";
       
       
-      
-      public static void volar() {
+   
+      public void volar() {
           System.out.println("Soy pato mexicano y no vuelo");
     }
 }
