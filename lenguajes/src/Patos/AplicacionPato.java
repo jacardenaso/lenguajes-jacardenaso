@@ -57,7 +57,7 @@ public class AplicacionPato {
         patos[4]=new PatoCanadiense();
         
         for(ComportamientoVolar p:patos){
-        p.volar();
+        p.volar(); 
         }
      
     
