@@ -3,17 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package constructores;
+package Solucion;
 
 /**
  *
  * @author jr.armando
  */
-public class Aplicacion {
-    public static void main(String[] args) {
-        Animal m=new Animal();
-        m.setEdad(3000);   
-        System.out.println("La edad es " +m.getEdad());   
-                
+public class Libro {
+    private String titulo;
+
+    public String getTitulo() {
+        return titulo;
     }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    
 }

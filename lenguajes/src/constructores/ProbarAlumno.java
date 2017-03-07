@@ -18,9 +18,9 @@ public class ProbarAlumno {
         System.out.println("Tu nombre es " +a.getNombre());
         
         
-        JFrame ventana=new JFrame("hola");
-               ventana.setSize(200,120);
-               ventana.setVisible(true);
+//        JFrame ventana=new JFrame("hola");
+//               ventana.setSize(200,120);
+//               ventana.setVisible(true);
                
     }
 }

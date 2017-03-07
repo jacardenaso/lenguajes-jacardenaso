@@ -15,7 +15,7 @@ public class AplicacionImc {
               yo.setPeso(70);
               yo.setAltura(1.68f);
               Imc imc=new Imc();
-              imc.setUser(yo);
+              imc. setUser(yo);
               System.out.println(imc.calcular());
     }
     
