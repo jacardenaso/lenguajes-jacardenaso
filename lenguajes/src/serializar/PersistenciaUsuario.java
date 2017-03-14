@@ -17,10 +17,10 @@ public class PersistenciaUsuario {
     
     public void guardar(Usuario u)throws Exception{
     
-    File file=new File("basesita-usuarios");
-    FileOutputStream fos=new FileOutputStream(file);
-    ObjectOutputStream oos=new ObjectOutputStream(fos);
-    oos.writeObject(u);
+        File file=new File("basesita-usuarios");
+        FileOutputStream fos=new FileOutputStream(file);
+        ObjectOutputStream oos=new ObjectOutputStream(fos);
+        oos.writeObject(u);
     
         
     
