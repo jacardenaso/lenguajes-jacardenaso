@@ -21,10 +21,21 @@ public class PersistenciaUsuario {
         FileOutputStream fos=new FileOutputStream(file);
         ObjectOutputStream oos=new ObjectOutputStream(fos);
         oos.writeObject(u);
-    
+        
+      
         
     
+    }
     
-    
+     public Usuario busarPorNombre(String nombre)throws Exception{
+        File file=new File("basesita-usuarios");
+        FileInputStream fis=new FileInputStream(file);
+        ObjectInputStream ois=new ObjectInputStream(fis);
+        Usuario encontrado=null;
+   Usuario u=     (Usuario) ois.readObject();
+       //Comparamos
+       if(u.getNomnbre().equals(nombre))encontrado=u;
+       return encontrado;
     }
 }
+

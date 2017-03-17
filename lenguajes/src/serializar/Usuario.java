@@ -26,6 +26,7 @@ public class Usuario implements Serializable{
         this.edad = edad;
     }
 
+    
     public int getEdad() {
         return edad;
     }
