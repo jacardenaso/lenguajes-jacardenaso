@@ -283,6 +283,7 @@ public class ApUsuario extends javax.swing.JFrame {
 
     //con la ayuda de la clase pérsistencia usuario guardamos a este usuario
     Usuario u=new Usuario(nombre,email,edad);
+   
     ////con la ayuda de la clase pérsistencia usuario ahora si gaurdamos este objeto
     PersistenciaUsuario p=new PersistenciaUsuario();
     
